@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button'
-import { ArrowLeft, Search, X } from 'lucide-react'
+import { ArrowRight, Search, X } from 'lucide-react'
 import { TableCell, TableRow } from '@/components/ui/table'
-import { Dialog, DialogTrigger, DialogContent } from '@/components/ui/dialog'
+import { Dialog, DialogTrigger } from '@/components/ui/dialog'
 import { OrderDetails } from './order-details'
 
 //export interface OrderTableRowProps{}
@@ -39,7 +39,7 @@ export function OrderTableRow() {
         <TableCell className='font-medium'>R$ 149,98</TableCell>
         <TableCell>
           <Button variant='ghost' size='xs'>
-              <ArrowLeft className='mr-2 h-3 w-3' />
+              <ArrowRight className='mr-2 h-3 w-3' />
               Aprovar
             </Button>
         </TableCell>
