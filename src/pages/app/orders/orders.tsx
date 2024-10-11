@@ -4,7 +4,7 @@ import { Table, TableHeader, TableRow, TableHead, TableBody } from '@/components
 
 import { OrderTableRow } from './order-table-row'
 import { OrderTableFilters } from './order-table-filters'
-import { Pagination } from '@/components/ui/pagination'
+import { Pagination } from '@/components/pagination'
 
 export function Orders(){
   return(
